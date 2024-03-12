@@ -16,21 +16,14 @@ tktk Write a short but descriptive summary of the content in this module.
 | -------------------------------------------------------- | :--------: | :---: | -------------------------------------- |
 | [Setup](./setup/README.md)                               |     --     |  --   | Setting up the development environment |
 | [Concepts](./concepts/README.md)                         |     --     |  --   | tktk skills covered                    |
-| [Comments and Printing to the `console`](./tktk-microlesson-01/README.md) |     --     |  --   | tktk skills covered                    |
-| [Variables](./tktk-microlesson-02/README.md) |     --     |  --   | tktk skills covered                    |
-| [Data Types](./tktk-microlesson-03/README.md) |     --     |  --   | tktk skills covered                    |
-| [Performing Operations](./tktk-microlesson-03/README.md) |     --     |  --   | tktk skills covered                    |
-| [Ternary Expressions](./tktk-microlesson-03/README.md) |     --     |  --   | tktk skills covered                    |
-| [Working with Strings](./tktk-microlesson-03/README.md) |     --     |  --   | tktk skills covered                    |
-| [Built in Functions](./tktk-microlesson-03/README.md) |     --     |  --   | tktk skills covered                    |
+| [Comments and Printing to the `console`](./comments-and-printing//README.md) |     --     |  --   | tktk skills covered                    |
+| [Variables](./variables/README.md) |     --     |  --   | tktk skills covered                    |
+| [Data Types](./data-types/README.md) |     --     |  --   | tktk skills covered                    |
+| [Performing Operations](./performing-operations/README.md) |     --     |  --   | tktk skills covered                    |
+| [Ternary Expressions](./ternary-expressions/README.md) |     --     |  --   | tktk skills covered                    |
+| [Working with Strings](./working-with-strings/README.md) |     --     |  --   | tktk skills covered                    |
+| [Built in Functions](./built-in-functions/README.md) |     --     |  --   | tktk skills covered                    |
 | **Total content**                                        |     --     |  --   |                                        |
-
-## Level Up content
-
-| Lesson                                                   | Video Time | Video | Skills              |
-| -------------------------------------------------------- | :--------: | :---: | ------------------- |
-| [tktk Microlesson Name](./tktk-microlesson-04/README.md) |     --     |  --   | tktk skills covered |
-| **Total Level Up content**                               |     --     |  --   |                     |
 
 ## References
 
