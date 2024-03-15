@@ -2,40 +2,31 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module serves as an introduction to Python.
 
 ## Prerequisites
 
-- tktk
-- tktk
 - tktk
 
 ## Content
 
 | Lesson                                                   | Video Time | Video | Skills                                 |
 | -------------------------------------------------------- | :--------: | :---: | -------------------------------------- |
-| [Setup](./setup/README.md)                               |     --     |  --   | Setting up the development environment |
-| [Concepts](./concepts/README.md)                         |     --     |  --   | tktk skills covered                    |
-| [Comments and Printing to the `console`](./comments-and-printing//README.md) |     --     |  --   | tktk skills covered                    |
-| [Variables](./variables/README.md) |     --     |  --   | tktk skills covered                    |
-| [Data Types](./data-types/README.md) |     --     |  --   | tktk skills covered                    |
-| [Performing Operations](./performing-operations/README.md) |     --     |  --   | tktk skills covered                    |
-| [Ternary Expressions](./ternary-expressions/README.md) |     --     |  --   | tktk skills covered                    |
-| [Working with Strings](./working-with-strings/README.md) |     --     |  --   | tktk skills covered                    |
-| [Built in Functions](./built-in-functions/README.md) |     --     |  --   | tktk skills covered                    |
+| [Setup](./setup/README.md)                               |     --     |  --   | Setting up the development environment. |
+| [Concepts](./concepts/README.md)                         |     --     |  --   | Overview of language specs and history.                    |
+| [Comments and Printing to the `console`](./comments-and-printing//README.md) |     --     |  --   | Writing code comments and printing in Python.                   |
+| [Variables](./variables/README.md) |     --     |  --   | Construct and reassign Python variables.                    |
+| [Data Types](./data-types/README.md) |     --     |  --   | Working with Python Data Types.                    |
+| [Performing Operations](./performing-operations/README.md) |     --     |  --   | Performing math and assignment operations in Python.                    |
+| [Ternary Expressions](./ternary-expressions/README.md) |     --     |  --   | Working with ternary expressions.                |
+| [Working with Strings](./working-with-strings/README.md) |     --     |  --   | String interpolation and string methods.                    |
+| [Built in Functions](./built-in-functions/README.md) |     --     |  --   | Working with the len() method.                    |
 | **Total content**                                        |     --     |  --   |                                        |
 
 ## References
 
 📖 [Reference Materials](./references/README.md)
 
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
 
 ## Internal resources
 
