@@ -1,6 +1,6 @@
 # ![Intro to Python - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will have an overview of the Python language.
 
 ## History
 

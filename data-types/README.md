@@ -1,6 +1,6 @@
 # ![Intro to Python - Data Types](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to check for and convert between Python Data Types.
 
 ## Data Types in Python
 

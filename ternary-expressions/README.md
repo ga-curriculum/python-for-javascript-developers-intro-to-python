@@ -1,6 +1,6 @@
 # ![Intro to Python - Ternary Expressions](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to work with Ternary expressions in Python.
 
 ### Ternary Expressions
 

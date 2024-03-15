@@ -1,6 +1,6 @@
 # ![Intro to Python - Working with Strings](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to write strings, perform string interpolation, and use string methods to work with string types in Python.
 
 ## Working with Strings
 

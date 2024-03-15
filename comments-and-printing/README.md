@@ -1,6 +1,6 @@
 # ![Intro to Python - Comments and Printing](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to leave comments and print data.
 
 
 ## Comments

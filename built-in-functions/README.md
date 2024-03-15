@@ -1,6 +1,6 @@
 # ![Intro to Python - Built in Functions](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will introduced to built in Python functions. 
 
 Notice above that we did not call `len()` as a method on the string - we didn’t do this: `"Tacos".len()`.
 

@@ -1,6 +1,6 @@
 # ![Intro to Python - Variables](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to construct and reassign Python variables.
 
 ## Python Variables
 

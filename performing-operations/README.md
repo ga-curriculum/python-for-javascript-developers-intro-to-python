@@ -1,6 +1,6 @@
 # ![Intro to Python - Performing Operations](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to perform math and assignment operations in Python.
 
 ## Math Operations
 
