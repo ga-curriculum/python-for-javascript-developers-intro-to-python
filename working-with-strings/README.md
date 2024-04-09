@@ -1,13 +1,13 @@
-# ![Intro to Python - Working with Strings](./assets/hero.png)
+# ![Python for Javascript Developers - Intro to Python - Working with Strings](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to write strings, perform string interpolation, and use string methods to work with string types in Python.
+**Learning objective:** By the end of this lesson, students will be able to write multiline strings, perform string interpolation, and use string methods to work with string types in Python.
 
-## Working with Strings
+## Working with strings
 
 Python also has strings for holding text, just like JavaScript:
 
 ```python
-my_string = "A double quoted string"
+my_string = "A double-quoted string"
 your_string = 'A single quoted string'
 ```
 
@@ -15,13 +15,13 @@ You can also do some multi-line strings by using a triple quote (single or doubl
 
 ```python
 multiline_string = '''This is my string that
-                        goes on multiple lines
-                          for whatever reason'''
+                      goes on multiple lines
+                      for whatever reason'''
 ```
 
-### Concatenating Strings
+### Concatenating strings
 
-One or more strings can be combined into a single string in the same way we do it in JS, by using the `+` operator:
+One or more strings can be combined into a single string in the same way we do it in JavaScript, by using the `+` operator:
 
 ```python
 little_string = "bad"
@@ -31,11 +31,11 @@ print(long_string)
 # prints "superbad"
 ```
 
-### String Interpolation using f-Strings
+### String interpolation using f-Strings
 
 One fancy thing that Python has had much longer than JavaScript is a nice syntax for string interpolation (evaluating Python expressions and embedding the result within strings).
 
-While we can always use the concatenation operators above, these get ugly when too many of them appear in a string. Instead, we can use syntax similar to what was introduced in ES6 with string template literals. You just need to remember to add an `f` before the string:
+In JavaScript, you might recall using string template literals introduced in ES6, which allow embedding expressions in strings using backticks and `${}`. Python's approach is similar, but with a key difference: you need to prefix the string with an `f` to indicate it's an f-string (formatted string literal).
 
 ```python
 state = "Hawaii"
@@ -57,9 +57,9 @@ print( template.format("Ben", "tacos") )
 # prints 'My name is Ben and I like tacos'
 ```
 
-## Useful String Methods
+## Useful string methods
 
-Just like JS, Python has a number of string methods that we can use for string manipulation.
+Just like JavaScript, Python has a number of string methods that we can use for string manipulation.
 
 Some are familiar, like `split()` but others have different names:
 
@@ -99,4 +99,3 @@ Use the built-in global `len()` function on a string to find its length.
 len("Tacos")
 # => 5
 ```
-

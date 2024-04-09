@@ -1,10 +1,10 @@
-# ![Intro to Python - Variables](./assets/hero.png)
+# ![Python for Javascript Developers - Intro to Python - Variables](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to construct and reassign Python variables.
+**Learning objective:** By the end of this lesson, students will be able to define and reassign Python variables.
 
 ## Python Variables
 
-Variables in Python hold the data an app needs when it runs. 
+Variables in Python hold the data an app needs when it runs.
 
 ### Declaring
 
@@ -14,7 +14,7 @@ Here is how we declare a variable in Python:
 my_number = 15
 ```
 
-You cannot just declare a variable without assigning to it: 
+You cannot just declare a variable without assigning to it:
 
 ```python
 # illegal syntax...
@@ -35,11 +35,11 @@ my_number = 10
 
 ### Reassigning Variables
 
-We can freely assign a new value to a variable after it has been declared: 
+We can freely assign a new value to a variable after it has been declared:
 
 ```python
 my_number = 15
-print(my_number)  
+print(my_number)
 # prints 15
 my_number = -4
 print(my_number)

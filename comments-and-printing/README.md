@@ -1,7 +1,6 @@
-# ![Intro to Python - Comments and Printing](./assets/hero.png)
+# ![Python for Javascript Developers - Intro to Python - Comments and Printing](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to leave comments and print data.
-
+**Learning objective:** By the end of this lesson, students will be able to leave code comments and print data to the console.
 
 ## Comments
 
@@ -38,9 +37,8 @@ Multiline comments are often used to document what a function or module does, th
 
 ## Printing
 
-In Python, we use the print() function to print a message to the console.
+In Python, we use the `print()` function to print a message to the console.
 
 ```python
 print('hello world!')
 ```
-

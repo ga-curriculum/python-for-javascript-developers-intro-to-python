@@ -5,6 +5,3 @@
 This release modularizes the legacy Intro to Python lecture and provides some other minor updates detailed below. Updates are provided here at the module level, but all subsequent updates should be documented at the lesson level.
 
 ### Release details
-
-
-

@@ -1,10 +1,10 @@
-# ![Intro to Python - Ternary Expressions](./assets/hero.png)
+# ![Python for Javascript Developers - Intro to Python - Ternary Expressions](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to work with Ternary expressions in Python.
+**Learning objective:** By the end of this lesson, students will be able to create Ternary expressions in Python.
 
 ### Ternary Expressions
 
-In JS we used the ternary expression to concisely return one of two values depending upon a conditional expression, for example:
+In JavaScript we used the ternary expression to concisely return one of two values depending upon a conditional expression, for example:
 
 ```javascript
 // Using the ternary operator/expression
@@ -21,7 +21,7 @@ if (age >= 21) {
 
 Python, however, does not have a dedicated ternary operator. Instead, Python uses a modified syntax of `if`/`else` which results in a ternary expression instead of a control flow construct.
 
-The Python ternary expression equivalent to the JS example above is:
+The Python ternary expression equivalent to the JavaScript example above is:
 
 ```python
 beverage = 'Beer' if age >= 21 else 'Milk'
