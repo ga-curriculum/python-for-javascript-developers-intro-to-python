@@ -1,6 +1,6 @@
-# ![Intro to Python - Performing Operations](./assets/hero.png)
+# ![Python for Javascript Developers - Intro to Python - Performing Operations](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to perform math and assignment operations in Python.
+**Learning objective:** By the end of this lesson, students will be able to perform basic mathematical operations in Python.
 
 ## Math Operations
 
@@ -13,7 +13,7 @@ Python has the normal math operators that you are used to from JavaScript:
 - Modulo (remainder) `(%)`
 - Exponentiation `(**)`
 
-All work as you would expect. However, there few other things worth mentioning: 
+All work as you would expect. However, there few other things worth mentioning:
 
 ### Integer Division
 
@@ -23,14 +23,14 @@ It was mentioned earlier that you could force operands to act like integers to g
 >>> quotient = 5 // 2
 >>> quotient
 2
-# 2 is printed, because the decimal ".5" is truncated
+# 2 is printed because the decimal ".5" is truncated
 ```
 
 ### Shortcut Assignment Operators
 
-As we saw in JS, the operation of reassigning to a variable the result of adding, etc. to that variable is so common, there are a number of shortcut operators in the language that make it cleaner to write.
+As we saw in JavaScript, the operation of reassigning to a variable the result of adding, etc. to that variable is so common, there are a number of shortcut operators in the language that make it cleaner to write.
 
-Python has the very same operators: 
+Python has the very same operators:
 
 ```python
 # This line of code...
@@ -50,6 +50,4 @@ num *= 3
 # And so on with the other operators.
 ```
 
-> IMPORTANT: A couple of our favorites in JS, the Increment (++) and Decrement (--) operators, do not exist in Python. Use += 1 and -= 1 instead.
-
-
+> Note: A couple of our favorites in JavaScript, the Increment (++) and Decrement (--) operators, do not exist in Python. Use += 1 and -= 1 instead.

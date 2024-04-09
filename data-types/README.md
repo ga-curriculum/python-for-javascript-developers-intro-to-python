@@ -1,16 +1,16 @@
-# ![Intro to Python - Data Types](./assets/hero.png)
+# ![Python for Javascript Developers - Intro to Python - Data Types](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to check for and convert between Python Data Types.
 
 ## Data Types in Python
 
-Python is very object-oriented.
+Python is a true object-oriented programming language.
 
-Every piece of data in Python is an object that’s an instance of a *class*.
+Every piece of data in Python is an object that’s an instance of a _class_.
 
 ### Checking the Data Type (class) of an Object
 
-We use the type() function to obtain the class used to instantiate the data:
+We use the `type()` function to obtain the class used to instantiate the data:
 
 ```shell
 >>> type(42)
@@ -66,7 +66,7 @@ The imaginary portion is represented by the letter ‘j’:
 
 Named after George Boole, these are the logical data types often used in conditional expressions.
 
-Just like in JS, we have `true` and `false` but spelled slightly differently:
+Just like in JavaScript, we have `true` and `false`, but capitalized in python syntax:
 
 ```shell
 >>> my_bool = True
@@ -75,11 +75,11 @@ Just like in JS, we have `true` and `false` but spelled slightly differently:
 <class 'bool'>
 ```
 
-Notice how they start with capital letters! You must start them with capital letters in Python or they will not reflect the boolean values.
+You must start them with capital letters in Python or they will not reflect the boolean values.
 
 ### Nothingness (`<class 'NoneType'>`)
 
-Similar to how JS has the `null` value to represent nothingness, Python has a similar value:
+Similar to how JavaScript has the `null` value to represent nothingness, Python has a similar value:
 
 ```python
 my_nothing = None
@@ -89,15 +89,17 @@ The value `None` in Python, with a capital N, provides the same meaning as `null
 
 ## Converting Between Data Types
 
-One thing we kind of took for granted in JavaScript was that it usually performed automatic data type conversion for us - a process known as implicit type coercion.
+In JavaScript, the language often automatically converts data types for us, a concept known as implicit type coercion. This means JavaScript can automatically change one data type to another during operations, like when combining strings and numbers.
 
 ```javascript
 let numTacos = 25;
 let msg = 'There are ' + numTacos + ' tacos';
-msg => There are 25 tacos
+// This results in the string: "There are 25 tacos"
 ```
 
-However, in Python we cannot do this - there is no type coercion. With few exceptions, variables must be the same type to perform an operation on them.
+In this example, `numTacos` is a `number`, but when we concatenate it with `strings`, JavaScript implicitly converts `numTacos` into a `string` to create a coherent sentence.
+
+However, in Python we cannot do this - there is no type coercion. With few exceptions, variables must be of the same type to perform an operation on them.
 
 Luckily, doing math operations between integers and floats is allowed, but not much else.
 
@@ -113,4 +115,3 @@ tuple(item)      # Converts item to a tuple
 list(item)       # Converts item to a list
 dict(item)       # Converts item to a dictionary
 ```
-

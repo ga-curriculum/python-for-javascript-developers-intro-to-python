@@ -1,4 +1,4 @@
-# ![Intro to Python - Setup](./assets/hero.png)
+# ![Python for Javascript Developers - Intro to Python - Setup](./assets/hero.png)
 
 ## Setup
 
@@ -8,11 +8,11 @@ Open your Terminal application and navigate to your **`~/code/ga/lectures`** dir
 cd ~/code/ga/lectures
 ```
 
-Make a new directory called **`[intro-to-python]`**, then enter this directory:
+Make a new directory called **`intro-to-python`**, then enter this directory:
 
 ```bash
-mkdir [intro-to-python]
-cd [intro-to-python]
+mkdir intro-to-python
+cd intro-to-python
 ```
 
 <!-- Other setup instructions here -->
