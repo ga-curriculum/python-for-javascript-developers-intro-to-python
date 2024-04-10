@@ -1,41 +1,37 @@
-# ![Python for Javascript Developers - Intro to Python - Concepts](./assets/hero.png)
+# ![Python for JavaScript Developers - Intro to Python - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to give a brief description of the Python language.
+**Learning objective:** By the end of this lesson, students will be able to briefly describe the Python language.
 
-## History
+## What is Python?
 
-The Python programming language started in December 1989 as a hobby project for Dutch programmer Guido van Rossum. He was looking for a programming project to keep himself occupied during his Christmas break.
+Python is a high-level, interpreted programming language known for its ease of use and readability. It was created in the late 1980s to provide programmers with a way to write clear, logical code for small and large-scale projects.
 
-Python was first released to the public in 1991.
+Unlike JavaScript, which is primarily used in web development, Python boasts a wide range of applications, from web and software development to scientific computing, data analysis, native desktop applications, artificial intelligence, and automation.
 
-## Versions
+Like JavaScript, its high-level nature means that developers can write applications without needing to worry about low-level details such as memory management, speeding up development. Also like JavaScript, Python is a dynamic scripting language that does not have to be compiled before it can be executed - it runs within an ***interpreter*** that handles the conversion into machine code.
 
-Ten years after its release, Python 2.0 was introduced with many major new features and it started to gather a community dedicated to its development.
+Python's simplicity and versatility have contributed to its widespread adoption in various fields, making it one of the most popular programming languages today. The following data from GitHub since 2014 illustrates Python's steadily rising popularity, where it competes closely with JavaScript for the top position.
 
-Python 3.0 was released in December 2008.
+![Graph of the most popular languages on GitHub over time](./assets/github-languages.png)
 
-Version 3.0 introduced many enhancements, however, it included changes that made Python 3 incompatible with much of the existing 2.0 code.
+## Why use Python?
 
-Version 2.0 was [**sunset on January 1, 2020**](https://www.python.org/doc/sunset-python-2/) and is no longer receiving updates. Because of this, it should not be used.
+There are many reasons for learning and using Python:
 
-## Type of Language
+- Versatility and Flexibility: Python is not just for web development; its use cases span different domains, making it a valuable tool for any developer.
+- Ease of Learning and Readability: Python's syntax is designed to be intuitive, lowering the barrier to entry for beginners. It often uses English keywords whereas other languages use punctuation or symbols. For example, the equivalent of JavaScript's `&&` operator in Python is `and`. Unlike many other languages, it does not use curly braces to define blocks of code; instead, it uses indentation.
+- Cross-Platform Compatibility: It runs on various systems without significant modifications, facilitating widespread use.
+- Continuous Development: Python is an open-source language with a vibrant community. It receives regular updates and improvements, adding new functionalities and keeping it up-to-date with current tech trends.
+- Robust Community and Libraries: With an extensive standard library and third-party modules on the [Python Package Index (PyPI)](https://pypi.org/) for nearly every task imaginable, Python's ecosystem is rich and supportive. Whatever you're trying to do, there's a high chance that there's already a library to help.
 
-Python, like JavaScript, is a high-level interpreted programming language.
+These aspects, coupled with the increasing demand for automation, data analysis, and web development skills, make Python a highly sought-after skill in the job market. The growth of its community and the expansion of its applications continue to open new job opportunities.
 
-High-level means that Python is designed for writing applications vs. lower-level software such as operating systems and device drivers. It also means that programmers don’t have to worry about things like memory management.
+## Python's Role in Technology and Development
 
-Also like JavaScript, Python is a dynamic scripting language that does not have to be compiled before it can be executed - it runs within an _interpreter_ that handles the conversion into machine code.
+Python is a cornerstone technology in many fields. While it does not serve the same role in web development as JavaScript, it is integral to backend development, data science, and the development of many types of software.
 
-Python comes with a large standard library and is suitable for many types of programming tasks from web development to machine learning.
+Frameworks like Django and Flask allow for the creation of robust web applications. Beyond the web, Python's simplicity and the power of its popular libraries such as NumPy, Pandas, and TensorFlow make it indispensable for tasks in data analysis, machine learning, and artificial intelligence.
 
-However, if Python does not include the functionality that you need, there is a huge repository, the [**Python Package Index**](https://pypi.org/), with over 390,000 third-party packages available for use.
+## Python 3 vs. Python 2
 
-## Syntax & Semantics
-
-Python was designed to be an easy-to-read programming language.
-
-Its formatting is visually uncluttered and it often uses English keywords where other languages use punctuation or symbols. For example, the equivalent of JavaScript’s `&&` operator in Python is `and`.
-
-Unlike many other languages, it does not use curly braces to define blocks of code, instead, it uses indentation.
-
-For these and many other reasons, you will find the language easy to learn and code in right away.
+When Python 3 was released in 2008, it introduced several changes to fix fundamental design flaws and improve the language's consistency. However, these changes were not backward-compatible with Python 2, leading to a significant division in the Python community. Python 2 was [**sunset on January 1, 2020**](https://www.python.org/doc/sunset-python-2/), and is no longer receiving updates. Because of this, it should not be used.

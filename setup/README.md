@@ -1,4 +1,4 @@
-# ![Python for Javascript Developers - Intro to Python - Setup](./assets/hero.png)
+# ![Python for JavaScript Developers - Intro to Python - Setup](./assets/hero.png)
 
 ## Setup
 
