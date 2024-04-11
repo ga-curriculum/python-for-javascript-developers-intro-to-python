@@ -1,117 +1,119 @@
-# ![Python for Javascript Developers - Intro to Python - Data Types](./assets/hero.png)
+# ![Python for JavaScript Developers - Intro to Python - Data Types](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to check for and convert between Python Data Types.
+**Learning objective:** By the end of this lesson, students will be able to check for and convert between Python data types.
 
-## Data Types in Python
+## Data types in Python
 
 Python is a true object-oriented programming language.
 
-Every piece of data in Python is an object that’s an instance of a _class_.
+Every piece of data in Python is an object that's an instance of a *class*.
 
-### Checking the Data Type (class) of an Object
+> 📚 A *class* is a blueprint for creating objects. This means that a string object will have different attributes and methods than an integer object because the string was created from a different blueprint than the integer.
+
+### Checking the data type (class) of an object
 
 We use the `type()` function to obtain the class used to instantiate the data:
 
-```shell
->>> type(42)
-<class 'int'>
->>> type('hello')
-<class 'str'>
->>> type(True)
-<class 'bool'>
+```python
+print(type("hello"))
+# prints: <class 'str'>
 ```
 
-Python’s data types are similar to those available in JavaScript, there’s just more of them.
+Python's data types are similar to those available in JavaScript; there are just more of them. Above you can see an example of a string in Python, which is an instance of the `str` class.
 
-### Integer Numbers (<class 'int'>)
+Strings can be enclosed in double quotes or single quotes. Use either, but try to stick with one or the other.
 
-Unlike in JavaScript, Python distinguishes between integers (whole numbers) and floats (numbers with decimals).
+### Integer numbers (`<class 'int'>`)
 
-When we don’t follow a number literal with a decimal point, an integer is assumed:
+Unlike JavaScript, Python distinguishes between integers (whole numbers) and floating-point numbers (numbers with decimals).
 
-```shell
->>> some_int = 25
->>> type(some_int)
-<class 'int'>
+When we don't follow a number literal with a decimal point, it is assumed to be an integer:
+
+```python
+print(type(25))
+# prints: <class 'int'>
 ```
 
-We can force numbers to act as integers in some mathematical operations, as we will see. Doing this can force an integer result which is usually the same as calling `Math.floor()` in JavaScript.
+### Floating-point numbers (`<class 'float'>`)
 
-### Floating-point Numbers (<class 'float'>)
+Numbers with a decimal point are stored in variables as floating-point numbers - commonly called floats.
 
-Numbers with a decimal point are stored in variables as floating-point numbers, usually just called a `float`.
-
-```shell
->>> pi = 3.14159
->>> type(pi)
-<class 'float'>
->>> some_float = 25.
->>> type(some_float)
-<class 'float'>
+```python
+print(type(3.14159))
+# prints: <class 'float'>
 ```
 
-### Complex Numbers (`<class 'complex'>`)
+Note that all it takes for an integer to become a float is the presence of a decimal, even if there's nothing after it:
 
-Python even has a data type for complex numbers, i.e., numbers with an “imaginary” component usually obtained by taking the square root of a negative number.
-
-The imaginary portion is represented by the letter ‘j’:
-
-```shell
->>> my_complex = 3+4j
->>> type(my_complex)
-<class 'complex'>
+```python
+print(type(25.))
+# prints: <class 'float'>
 ```
 
 ### Booleans (`<class 'bool'>`)
 
 Named after George Boole, these are the logical data types often used in conditional expressions.
 
-Just like in JavaScript, we have `true` and `false`, but capitalized in python syntax:
+Just like in JavaScript, we have `true` and `false`, but they are capitalized in Python:
 
-```shell
->>> my_bool = True
->>> my_other_bool = False
->>> type(my_bool)
-<class 'bool'>
+```python
+print(type(True))
+# prints: <class 'bool'>
 ```
 
-You must start them with capital letters in Python or they will not reflect the boolean values.
+You must start them with capital letters in Python, or they will not reflect the boolean values:
+
+```python
+print(type(true))
+# NameError: name 'true' is not defined. Did you mean: 'True'?
+```
 
 ### Nothingness (`<class 'NoneType'>`)
 
-Similar to how JavaScript has the `null` value to represent nothingness, Python has a similar value:
+Similar to how JavaScript has the `null` value to represent nothingness, Python has `None`:
 
 ```python
-my_nothing = None
+print(type(None))
+# prints: `<class 'NoneType'>`
 ```
 
-The value `None` in Python, with a capital N, provides the same meaning as `null` does in JavaScript.
+The value `None` in Python, with a capital N, provides the same meaning as `null` in JavaScript.
 
-## Converting Between Data Types
+### Other types
 
-In JavaScript, the language often automatically converts data types for us, a concept known as implicit type coercion. This means JavaScript can automatically change one data type to another during operations, like when combining strings and numbers.
+There are many other types. Refer to [Python's built-in types documentation](https://docs.python.org/3/library/stdtypes.html) for a comprehensive list and to see the attributes and methods available to all of them.
+
+## Converting between data types
+
+JavaScript attempts to automatically convert data types for us when necessary. This is known as implicit type coercion. This means JavaScript can automatically change one data type to another during operations, like when combining strings and numbers.
 
 ```javascript
 let numTacos = 25;
-let msg = 'There are ' + numTacos + ' tacos';
-// This results in the string: "There are 25 tacos"
+let msg = "There are " + numTacos + " tacos.";
+// msg is the string: "There are 25 tacos."
 ```
 
-In this example, `numTacos` is a `number`, but when we concatenate it with `strings`, JavaScript implicitly converts `numTacos` into a `string` to create a coherent sentence.
+In this example, `numTacos` is a number, but when we concatenate it with strings, JavaScript implicitly converts `numTacos` into a string to create a single string.
 
-However, in Python we cannot do this - there is no type coercion. With few exceptions, variables must be of the same type to perform an operation on them.
+However, in Python we cannot do this - there is no type coercion. With few exceptions, variables must be the same type to perform an operation on them. This does not work:
+
+```python
+num_tacos = 25
+msg = "There are " + num_tacos + " tacos."
+# TypeError: can only concatenate str (not "int") to str
+```
 
 Luckily, doing math operations between integers and floats is allowed, but not much else.
 
 When the time comes to convert one data type into another, Python provides us with several global functions or predefined classes to do so:
 
 ```python
-str(item)        # Converts the item to a string
-int(item, base)  # Converts the item to an integer with the provided base
-float(item)      # Converts the item to a floating-point number
-hex(int)         # Converts an integer to a hexadecimal STRING
-oct(int)         # Converts an integer to an octal STRING
-tuple(item)      # Converts item to a tuple
-list(item)       # Converts item to a list
-dict(item)       # Converts item to a dictionary
+str(item)        # Converts `item` to a string
+int(item, base)  # Converts `item` to an integer with the provided `base`
+float(item)      # Converts `item` to a floating-point number
+hex(int)         # Converts `int` to a hexadecimal string
+oct(int)         # Converts `int` to an octal string
+tuple(item)      # Converts `item` to a tuple
+list(item)       # Converts `item` to a list
+dict(item)       # Converts `item` to a dictionary
 ```

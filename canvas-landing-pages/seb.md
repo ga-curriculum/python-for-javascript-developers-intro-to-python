@@ -1,4 +1,4 @@
-# ![Python for Javascript Developers - Intro to Python](../assets/tktk-hero.png)
+# ![Python for JavaScript Developers - Intro to Python](../assets/tktk-hero.png)
 
 ## About
 
@@ -12,13 +12,13 @@ Throughout this module, learners will engage in an in-depth exploration of Pytho
 | ----------------------------------------------------------------------------- | :--------: | :---: | ---------------------------------------------------- |
 | [Setup](../setup/README.md)                                                   |     --     |  --   | Setting up the development environment.              |
 | [Concepts](../concepts/README.md)                                             |     --     |  --   | Overview of language specs and history.              |
-| [Comments and Printing to the `console`](../comments-and-printing//README.md) |     --     |  --   | Writing code comments and printing in Python.        |
+| [Fundamentals](../fundamentals/README.md) |     --     |  --   | Writing code comments, printing to the console, and executing Python code.        |
 | [Variables](../variables/README.md)                                           |     --     |  --   | Construct and reassign Python variables.             |
-| [Data Types](../data-types/README.md)                                         |     --     |  --   | Working with Python Data Types.                      |
+| [Data Types](../data-types/README.md)                                         |     --     |  --   | Working with Python data types.                      |
 | [Performing Operations](../performing-operations/README.md)                   |     --     |  --   | Performing math and assignment operations in Python. |
 | [Ternary Expressions](../ternary-expressions/README.md)                       |     --     |  --   | Working with ternary expressions.                    |
 | [Working with Strings](../working-with-strings/README.md)                     |     --     |  --   | String interpolation and string methods.             |
-| [Built in Functions](../built-in-functions/README.md)                         |     --     |  --   | Working with the len() method.                       |
+| [Built-in Functions](../built-in-functions/README.md)                         |     --     |  --   | Working with built-in functions like `len()`.                       |
 
 ## References
 

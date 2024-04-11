@@ -34,4 +34,4 @@ Frameworks like Django and Flask allow for the creation of robust web applicatio
 
 ## Python 3 vs. Python 2
 
-When Python 3 was released in 2008, it introduced several changes to fix fundamental design flaws and improve the language's consistency. However, these changes were not backward-compatible with Python 2, leading to a significant division in the Python community. Python 2 was [**sunset on January 1, 2020**](https://www.python.org/doc/sunset-python-2/), and is no longer receiving updates. Because of this, it should not be used.
+When Python 3 was released in 2008, it introduced several changes to fix fundamental design flaws and improve the language's consistency. However, these changes were not backward-compatible with Python 2, leading to a significant division in the Python community. Python 2 was [sunset on January 1, 2020](https://www.python.org/doc/sunset-python-2/), and is no longer receiving updates. Because of this, it should not be used.

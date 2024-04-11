@@ -1,24 +1,33 @@
-# ![Python for Javascript Developers - Intro to Python - Built in Functions](./assets/hero.png)
+# ![Python for JavaScript Developers - Intro to Python - Built-in Functions](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will introduced to built in functions in Python.
+**Learning objective:** By the end of this lesson, students will be familiar with some of Python's built-in functions.
 
-In the previous lesson, we did not call `len()` as a method on the string: `"Tacos".len()`.
+## Working with built-in functions
 
-`len()` is just one of several [**built-in functions**](https://docs.python.org/3/library/functions.html) that exists in Python.
+You might have noticed that when we used `len()` in the previous lesson, we did not call it as a method on the string. Put another way, we didn't write `"Tacos".len()`. Instead, we wrote `len("Tacos")`.
 
-For example, `len()`, is a function that returns the length (the number of items) of an object. The argument may be any sequence or collection.
+`len()` is one of Python's [built-in functions](https://docs.python.org/3/library/functions.html). The `len()` function accepts any sequence or collection as an argument. It returns that sequence or collection's length (the number of items in it).
 
-Why does `len()` work on strings? Because in Python, a string is a sequence of characters.
+Why does `len()` work on strings? Because in Python (like JavaScript), a string is a sequence of characters.
 
-Because a string is a sequence, like in JavaScript, we can use square brackets to access the characters (but not assign to them, also like JavaScript):
+This is also why we were able to use another one of Python's  built-in functions: `list()`. We used it with the code `list("abcd")`!
+
+We can even use square brackets to access the individual characters as we could in JavaScript:
 
 ```python
-greeting = 'Hello'
+greeting = "Hello"
 print( greeting[0] )
-# => Prints 'H'
+# prints: 'H'
 
-# We can use negative indices!
+# Python lets us use negative indices!
 last_letter = greeting[-1]
 print( last_letter )
-# => Prints 'o'
+# prints: 'o'
+```
+
+Although we can access individual characters in a string, we cannot change them because strings are immutable, again, just like they are in JavaScript:
+
+```python
+greeting[0] = "Y"
+# TypeError: 'str' object does not support item assignment
 ```
