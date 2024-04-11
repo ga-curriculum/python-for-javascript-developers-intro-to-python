@@ -14,3 +14,7 @@ This release modularizes the legacy Intro to Python lecture and provides some ot
 
 - Rewrote the introductory concepts content to shift focus onto what Python is and why it's used by developers.
 - Rebuilt some examples and added more written material to give a deeper explaination of those examples.
+
+#### Removals
+
+- Moved ternary content to Python Control Flow module.

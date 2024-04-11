@@ -22,7 +22,6 @@ Throughout this module, learners will engage in an in-depth exploration of Pytho
 | [Variables](./variables/README.md)                                           |     --     |  --   | Construct and reassign Python variables.             |
 | [Data Types](./data-types/README.md)                                         |     --     |  --   | Working with Python data types.                      |
 | [Performing Operations](./performing-operations/README.md)                   |     --     |  --   | Performing math and assignment operations in Python. |
-| [Ternary Expressions](./ternary-expressions/README.md)                       |     --     |  --   | Working with ternary expressions.                    |
 | [Working with Strings](./working-with-strings/README.md)                     |     --     |  --   | String interpolation and string methods.             |
 | [Built-in Functions](./built-in-functions/README.md)                         |     --     |  --   | Working with built-in functions like `len()`.                     |
 | **Total content**                                                            |     --     |  --   |                                                      |
