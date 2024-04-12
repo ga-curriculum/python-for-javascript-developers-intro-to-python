@@ -1,4 +1,4 @@
-# ![Python for JavaScript Developers - Intro to Python](../assets/tktk-hero.png)
+# ![Python for JavaScript Developers - Intro to Python](../assets/hero.png)
 
 ## About
 

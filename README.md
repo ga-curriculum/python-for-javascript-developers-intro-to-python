@@ -1,6 +1,4 @@
-# ![Python for JavaScript Developers - Intro to Python](./assets/tktk-hero.png)
-
-tktk Hunter, this lecture just needs hero images!
+# ![Python for JavaScript Developers - Intro to Python](./assets/hero.png)
 
 ## About
 
