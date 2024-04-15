@@ -49,14 +49,6 @@ When the `f` is placed directly before a string's opening quote (single or doubl
 
 Once we do this, we can put expressions into curly braces to include the result of the expressions in the final string.
 
-Before f-Strings, there were a couple of other options, one being the string `format` method:
-
-```python
-template = "Today is {}, and I am {}."
-print( template.format("Saturday", "happy") )
-# prints 'Today is Saturday, and I am happy.'
-```
-
 ## Useful string methods
 
 Like JavaScript, Python has several string methods we can use for string manipulation.
