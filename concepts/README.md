@@ -4,7 +4,7 @@
 
 ## What is Python?
 
-Python is a high-level, interpreted programming language known for its ease of use and readability. It was created in the late 1980s to provide programmers with a way to write clear, logical code for small and large-scale projects.
+Python is a high-level, interpreted programming language known for its ease of use and readability. It was first released in 1991 to provide programmers with a way to write clear, logical code for small and large-scale projects.
 
 Unlike JavaScript, which is primarily used in web development, Python boasts a wide range of applications, from web and software development to scientific computing, data analysis, native desktop applications, artificial intelligence, and automation.
 
