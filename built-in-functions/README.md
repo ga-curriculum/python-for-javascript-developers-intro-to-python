@@ -12,6 +12,8 @@ Why does `len()` work on strings? Because in Python (like JavaScript), a string 
 
 This is also why we were able to use another one of Python's  built-in functions: `list()`. We used it with the code `list("abcd")`!
 
+## Strings as sequences
+
 We can even use square brackets to access the individual characters as we could in JavaScript:
 
 ```python
