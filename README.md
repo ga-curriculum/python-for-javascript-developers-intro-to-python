@@ -14,14 +14,14 @@ Throughout this module, learners will engage in an in-depth exploration of Pytho
 
 | Lesson | Video Time | Video | Skills |
 | ------ | :--------: | :---: | ------ |
-| [Setup](./setup/README.md)                                 | -- | -- | Setting up the development environment.                                    |
-| [Concepts](./concepts/README.md)                           | -- | -- | Overview of language specs and history.                                    |
-| [Fundamentals](./fundamentals/README.md)                   | -- | -- | Writing code comments, printing to the console, and executing Python code. |
-| [Variables](./variables/README.md)                         | -- | -- | Construct and reassign Python variables.                                   |
-| [Data Types](./data-types/README.md)                       | -- | -- | Working with Python data types.                                            |
-| [Performing Operations](./performing-operations/README.md) | -- | -- | Performing math and assignment operations in Python.                       |
-| [Working with Strings](./working-with-strings/README.md)   | -- | -- | String interpolation and string methods.                                   |
-| **Total content**                                          | -- | -- |                                                                            |
+| [Setup](./setup/README.md)                                 |  1 min | [link](https://generalassembly.wistia.com/medias/6yw63ps2wd) | Setting up the development environment.                                    |
+| [Concepts](./concepts/README.md)                           |  4 min | [link](https://generalassembly.wistia.com/medias/wlphuavzso) | Overview of language specs and history.                                    |
+| [Fundamentals](./fundamentals/README.md)                   |  2 min | [link](https://generalassembly.wistia.com/medias/xrep207pdi) | Writing code comments, printing to the console, and executing Python code. |
+| [Variables](./variables/README.md)                         |  3 min | [link](https://generalassembly.wistia.com/medias/clln8fpbir) | Construct and reassign Python variables.                                   |
+| [Data Types](./data-types/README.md)                       |  7 min | [link](https://generalassembly.wistia.com/medias/r8tzjqpw9j) | Working with Python data types.                                            |
+| [Performing Operations](./performing-operations/README.md) |  4 min | [link](https://generalassembly.wistia.com/medias/ycy320y26n) | Performing math and assignment operations in Python.                       |
+| [Working with Strings](./working-with-strings/README.md)   | 10 min | [link](https://generalassembly.wistia.com/medias/e27xthlxmi) | String interpolation and string methods.                                   |
+| **Total content**                                          | 31 min | --                                                           |                                                                            |
 
 ## References
 
