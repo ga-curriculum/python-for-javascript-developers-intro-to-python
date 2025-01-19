@@ -1,14 +1,13 @@
-# ![Python for JavaScript Developers - Intro to Python](./assets/hero.png)
+<h1>
+  <span class="prefix">Python for JavaScript Developers</span>
+  <span class="headline">Intro to Python</span>
+</h1>
 
 ## About
 
 Welcome to the introductory module on Python, designed for learners with a background in JavaScript. This module is structured with the assumption that learners possess a foundational understanding of coding and programming principles.
 
 Throughout this module, learners will engage in an in-depth exploration of Python's unique features, understanding how they align with and differ from JavaScript. The focus will be on recognizing the key distinctions between Python and JavaScript, applying fundamental Python syntax, and translating common JavaScript concepts into Python constructs.
-
-## Prerequisites
-
-- None
 
 ## Content
 
@@ -27,7 +26,18 @@ Throughout this module, learners will engage in an in-depth exploration of Pytho
 
 📖 [Reference Materials](./references/README.md)
 
-## Internal resources
+## Internal
+
+### Prerequisites
+
+- None
+
+### Course landing pages
+
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/seb.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+
+### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
@@ -37,4 +47,4 @@ Throughout this module, learners will engage in an in-depth exploration of Pytho
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**

@@ -1,4 +1,7 @@
-# ![Release Notes](../assets/release-notes.png)
+<h1>
+  <span class="headline">Intro to Python</span>
+  <span class="subhead">Release Notes</span>
+</h1>
 
 ## Version 1.0 - Updates from legacy content
 
@@ -8,12 +11,12 @@ This release modularizes the legacy Intro to Python lecture and provides some ot
 
 #### Additions
 
-- Added more links off to Python's documentaion to lean on for deeper explainations on topics not directly covered in the lecture content.
+- Added more links off to Python's documentation to lean on for deeper explanations on topics not directly covered in the lecture content.
 
 #### Changes
 
 - Rewrote the introductory concepts content to shift focus onto what Python is and why it's used by developers.
-- Rebuilt some examples and added more written material to give a deeper explaination of those examples.
+- Rebuilt some examples and added more written material to give a deeper explanation of those examples.
 
 #### Removals
 
