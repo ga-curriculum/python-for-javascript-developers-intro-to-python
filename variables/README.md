@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Intro to Python - Variables](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Python</span>
+  <span class="subhead">Variables</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to define and reassign Python variables.
 

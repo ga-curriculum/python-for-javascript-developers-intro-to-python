@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Intro to Python - Data Types](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Python</span>
+  <span class="subhead">Data Types</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to check for and convert between Python data types.
 

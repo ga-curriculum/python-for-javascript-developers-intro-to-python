@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Intro to Python - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Python</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Setup
 

@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Intro to Python - Working with Strings](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Python</span>
+  <span class="subhead">Working with Strings</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to write multiline strings, perform string interpolation, and use string methods to work with string types in Python.
 

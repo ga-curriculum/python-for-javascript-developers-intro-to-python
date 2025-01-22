@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Intro to Python - Concepts](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Python</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to briefly describe the Python language.
 

@@ -1,0 +1,215 @@
+{
+  "org": {
+    "friendlyName": "Modular Curriculum All Courses",
+    "name": "modular-curriculum-all-courses"
+  },
+  "repo": {
+    "friendlyName": "Python for JavaScript Developers - Intro to Python",
+    "name": "python-for-javascript-developers-intro-to-python",
+    "type": "Lesson",
+    "about": "",
+    "starterCode": "",
+    "solutionCode": "",
+    "deployedSite": ""
+  },
+  "courses": [
+    {
+      "name": "seb",
+      "courseAcronym": "",
+      "courseFullName": "",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/6yw63ps2wd",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wlphuavzso",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Fundamentals",
+          "dirName": "fundamentals",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/xrep207pdi",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Variables",
+          "dirName": "variables",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/clln8fpbir",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Data Types",
+          "dirName": "data-types",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/r8tzjqpw9j",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Performing Operations",
+          "dirName": "performing-operations",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/ycy320y26n",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Working with Strings",
+          "dirName": "working-with-strings",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/e27xthlxmi",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "fallback",
+      "courseAcronym": "",
+      "courseFullName": "",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/6yw63ps2wd",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/wlphuavzso",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Fundamentals",
+          "dirName": "fundamentals",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/xrep207pdi",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Variables",
+          "dirName": "variables",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/clln8fpbir",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Data Types",
+          "dirName": "data-types",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/r8tzjqpw9j",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Performing Operations",
+          "dirName": "performing-operations",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/ycy320y26n",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Working with Strings",
+          "dirName": "working-with-strings",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "https://generalassembly.wistia.com/medias/e27xthlxmi",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    }
+  ]
+}

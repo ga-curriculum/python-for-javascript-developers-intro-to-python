@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Intro to Python - Performing Operations](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Python</span>
+  <span class="subhead">Performing Operations</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to perform basic mathematical operations in Python.
 
